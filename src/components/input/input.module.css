@@ -1,0 +1,15 @@
+.checkboxWrap{
+    display: flex;
+    align-items: center;
+}
+.checkbox {
+    height: 18px;
+    width: 18px;
+    margin-right: 12px
+}
+.titleCheckbox {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}

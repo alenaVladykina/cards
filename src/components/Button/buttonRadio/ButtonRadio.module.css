@@ -1,0 +1,26 @@
+.wrapper {
+    display: inline-block;
+}
+
+.wrapper input[type=radio]{
+    display: none;
+}
+
+.wrapper label{
+    display: inline-block;
+    cursor: pointer;
+    line-height: 34px;
+    /*height: 36px;*/
+    /*width: 100px;*/
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+input[type=radio]:checked + label{
+    background-color:#366EFF;
+    color:#FFFFFF;
+}

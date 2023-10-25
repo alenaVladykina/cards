@@ -1,0 +1,22 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.wrapInside {
+    display: block;
+    width: 434px;
+    padding: 35px 33px 35px 33px;
+}
+
+.wrapperPack {
+    width:1008px;
+    margin-right: 136px;
+    margin-left: 136px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}

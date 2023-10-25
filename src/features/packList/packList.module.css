@@ -1,0 +1,49 @@
+
+.buttonAction {
+    background-color: transparent;
+    height: 20px;
+    weigth: 20px;
+    border: none;
+}
+
+.table {
+    width: 100%;
+    text-align: start;
+    border-collapse: collapse;
+    white-space: normal;
+    word-break: break-all;
+    margin-bottom: 50px;
+}
+
+th, td {
+    text-align: start;
+    height: 30px;
+    word-wrap: break-word;
+}
+
+td:nth-child(1) {
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 0 30px 0 36px;
+}
+
+.thName {
+    padding-left: 36px;
+    width: 280px;
+}
+
+.trHeader {
+    background-color: #EFEFEF;
+}
+
+.thCards {
+    width: 130px;
+}
+
+.thUpdated {
+    width: 216px;
+}
+
+.thCrated {
+    width: 125px;
+}
